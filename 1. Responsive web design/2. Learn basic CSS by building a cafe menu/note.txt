@@ -1,0 +1,47 @@
+html
+	head
+	body
+		main
+			section
+		footer
+
+style in head
+	selector {
+		property: value;
+	}
+
+Property
+	text-align	center
+	background-color
+	margin-left/right	auto
+
+	background-image: url(...)
+
+	display		inline-block
+	max-width
+	width
+	padding
+	padding-left/right/top/bottom
+
+	border-color
+	
+<link rel="stylesheet" href="styles.css"/>
+
+self-closing: phai them / o cuoi
+
+#id 
+
+.class
+
+hr: self closing 
+
+pseudo-selector 
+a:visited {
+	propertyName: propertyValue;
+}
+a:hover
+a:active
+
+hover, active thuong giong color
+
+There is an easier way, simply add a negative top margin to the img elements to pull them up from their current positions. Negative values are created using a - in front of the value
