@@ -1,0 +1,35 @@
+background-color: rgb(...,...,...)
+background	linear-gradient(gradientDirection, color1 stop%, color2, ...);
+opacity(độ mờ): ...
+
+rgba(redValue, greenValue, blueValue, alphaValue);
+
+border-left: width style color;
+
+box-shadow: offsetX offsetY color;
+Here's how the offsetX and offsetY values work:
+    both offsetX and offsetY accept number values in px and other CSS units
+    a positive offsetX value moves the shadow right and a negative value moves it left
+    a positive offsetY value moves the shadow down and a negative value moves it up
+    if you want a value of zero (0) for any or both offsetX and offsetY, you don't need to add a unit. Every browser understands that zero means no change.
+
+box-shadow: offsetX offsetY blurRadius color;
+box-shadow: offsetX offsetY blurRadius spreadRadius color;
+
+
+It's better practice to choose one color as the dominant color, and use its complementary color as an accent to bring attention to certain content on the page.
+
+Notice how your eyes are naturally drawn to the red color in the center? When designing a site, you can use this effect to draw attention to important headings, buttons, or links.
+
+hex colors: 0 1 2 3 4 5 6 7 8 9 A B C D E F
+red-green-blue
+..   ..    ..
+#00FF00
+
+HSL color model: hue, saturation, lightness
+
+CSS hsl function accepts 3 values: a number 0 -> 360 for hue, 0->100% for saturation, 0->100% for lightness
+
+saturation and lightness must have % 
+
+Another way to set the opacity for an element is with the alpha channel. Similar to the opacity property, the alpha channel controls how transparent or opaque a color is.
