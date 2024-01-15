@@ -1,0 +1,46 @@
+Another important meta element for accessibility and SEO is the description definition. The value of the content attribute is used by search engines to provide a description of your page.
+
+Navigation is a core part of accessibility, and screen readers rely on you to provide the structure of your page. This is accomplished with semantic HTML elements.
+
+
+The header element will be used to introduce the page, as well as provide a navigation menu.
+
+The main element will contain the core content of your page.
+
+<nav></nav>
+
+A useful property of an SVG (scalable vector graphics) is that it contains a path attribute which allows the image to be scaled without affecting the resolution of the resultant image.
+
+img {
+  width: max(250px, 25vw);
+}
+
+aspect-ratio: ;
+
+The child combinator selector > is used between selectors to target only elements that match the second selector and are a direct child of the first selector.
+
+This can be helpful when you have deeply nested elements and want to control the scope of your styling.
+
+To increase the page accessibility, the role attribute can be used to indicate the purpose behind an element on the page to assistive technologies. The role attribute is a part of the Web Accessibility Initiative (WAI), and accepts preset values.
+
+role="..."
+
+
+Every region role requires a label, which helps screen reader users understand the purpose of the region. One method for adding a label is to add a heading element inside the region and then reference it with the aria-labelledby attribute.
+
+aria-labelledby="..."
+
+có thể href của achor đến id
+
+There is a common pattern to visually hide text for only screen readers to read.
+This pattern is to set the following CSS properties:
+
+position: absolute;
+width: 1px;
+height: 1px;
+padding: 0;
+margin: -1px;
+overflow: hidden;
+clip: rect(0, 0, 0, 0);
+white-space: nowrap;
+border: 0;
