@@ -12,6 +12,8 @@ img {
 
 #img-div {
     background-color: white;
+    padding: 10px;
+    margin: 0;
 }
 
 #image {
@@ -19,3 +21,14 @@ img {
     height: auto;
 }
 
+li {
+    text-align: left;
+}
+
+.quote {
+    font-style: italic;
+}
+
+.year {
+    
+}
