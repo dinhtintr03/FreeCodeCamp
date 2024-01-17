@@ -1,0 +1,19 @@
+aria-hidden = "true"
+
+span kiểu nó liên tiếp không xuống dòng
+
+table
+	caption
+	thead
+	tbody
+		tr (table row)
+			td
+			th
+
+The tr element is used to indicate a table row.
+The td element indicates a data cell, while the th element indicates a header cell.
+
+th table header
+	
+td table data
+
