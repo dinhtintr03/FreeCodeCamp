@@ -17,3 +17,29 @@ th table header
 	
 td table data
 
+The span[class~="classname"] selector will select any span element whose class includes classname.
+
+The CSS clip property is used to define the visible portions of an element. Set the span[class~="sr-only"] selector to have a clip property of rect(1px, 1px, 1px, 1px).
+	clip: rect(1px, 1px, 1px, 1px);
+	clip-path: inset(50%);
+
+To prevent the text content from overflowing, give your span[class~="sr-only"] selector an overflow property set to hidden and a white-space property set to nowrap.
+	overflow: hidden;
+  	white-space: nowrap;
+	position: absolute;
+
+The :first-of-type pseudo-selector is used to target the first element that matches the selector.
+
+The calc() function is a CSS function that allows you to calculate a value based on other values. For example, you can use it to calculate the width of the viewport minus the margin of an element:
+
+.example {
+  margin: 10px;
+  width: calc(100% - 20px);
+}
+
+Before you start diving in to the table itself, your span elements are currently bolded. Create a span:not(.sr-only) selector and give it a font-weight property set to normal.
+
+The :not() pseudo-selector is used to target all elements that do not match the selector - in this case, any of your span elements that do not have the sr-only class. This ensures that your earlier rules for the span[class~="sr-only"] selector are not overwritten.
+
+font-weight: normal
+		bold
