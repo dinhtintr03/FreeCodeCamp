@@ -1,0 +1,9 @@
+The last position property value is sticky. sticky positioning is a hybrid of relative and fixed positioning. It allows an element to stick to a specific position within its containing element or viewport, based on the scroll position.
+
+transform: rotate(...deg)
+
+z-index is a property you can use to define the order of overlapping HTML elements. Any element with a higher z-index will always be positioned over an element with a lower z-index.
+
+border-top-right-radius: ...;
+
+z-index: -1; //left ear
