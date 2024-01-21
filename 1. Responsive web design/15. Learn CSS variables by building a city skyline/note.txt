@@ -9,8 +9,32 @@ To use a variable, put the variable name in parentheses with var in front of the
 
 	var(--variable-name, fallback-value)
 
+:root thường chứa cái variable
+
 Gradients in CSS are a way to transition between colors across the distance of an element. They are applied to the background property and the syntax looks like this:
 	gradient-type(
   		color1,
   		color2
 	);
+Gradients can use as many colors as you want like this:
+	gradient-type(
+  		color1,
+  		color2,
+  		color3
+	);
+
+	gradient-type(
+  		color1,
+  		color2 20%,
+  		color3
+	);
+
+	gradient-type(
+		direction,
+		color1,
+		color2
+	);
+
+	radial-gradient
+
+	circle closest-corner at 15% 15%
