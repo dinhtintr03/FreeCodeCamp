@@ -3,3 +3,14 @@ The loading attribute on an img element can be set to lazy to tell the browser n
 The Referer HTTP header contains information about the address or URL of a page that a user might be visiting from. This information can be used in analytics to track how many users from your page visit freecodecamp.org
 
 rel="norefferer"
+
+CSS Grid offers a two-dimensional grid-based layout, allowing you to center items horizontally and vertically while still retaining control to do things like overlap elements.
+
+display: grid;
+  grid-template-columns: 1fr 94rem 1fr;
+
+row-gap: ...; add space between rows in grid layout
+
+One option is the grid-column property, which is shorthand for grid-column-start and grid-column-end. The grid-column property tells the grid item which grid line to start and end at.
+
+Create a .heading rule and set the grid-column property to 2 / 3. This will tell the .heading element to start at grid line 2 and end at grid line 3.
