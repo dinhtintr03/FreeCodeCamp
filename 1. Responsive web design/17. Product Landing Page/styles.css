@@ -11,3 +11,14 @@
 li {
     list-style: none;
 }
+
+header {
+    position: fixed;
+
+}
+
+@media(max-width: 600px) {
+    header {
+        flex-wrap: wrap;
+    }
+}
