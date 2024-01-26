@@ -1,0 +1,3 @@
+To make the mountain look more like a mountain, you can use the skew transform function, which takes two arguments. The first being an angle to shear the x-axis by, and the second being an angle to shear the y-axis by.
+
+transform: skew(...,...);
